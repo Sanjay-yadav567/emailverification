@@ -22,6 +22,8 @@ if len(email)>=6:
 
                 if k == 1 or j == 1 or d == 1:
                     print("Wrong Email because email have space or captile letter or another sign")
+                else:
+                    print("Right Email")
             else:
                 print("Wrong Email because '.' is not right position")
         else:
